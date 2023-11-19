@@ -1,0 +1,65 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### GPT ###
+
+# Arquivos de compilação Java
+*.class
+
+# Arquivos de build Maven
+target/
+
+# Arquivos de build Gradle
+build/
+
+# Arquivos de configuração do Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos de configuração do IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Logs e arquivos temporários
+*.log
+*.swp
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências e chaves de API
+credentials.properties
