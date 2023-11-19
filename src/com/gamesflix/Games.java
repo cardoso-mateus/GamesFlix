@@ -17,12 +17,12 @@ public class Games {
 
     void getDataSheet() {
         String text = """
-				Título: %s
-				Gênero: %s
-				Ano de lançamento: %d
-				Nota: %.1f
-				Quantidade de avaliações: %d
-				""".formatted(getTitle(), getGenre(), getLaunchYear(), getRatingAvarage(), getRatingsQuantity());
+                Título: %s
+                Gênero: %s
+                Ano de lançamento: %d
+                Nota: %.1f
+                Quantidade de avaliações: %d
+                """.formatted(getTitle(), getGenre(), getLaunchYear(), getRatingAvarage(), getRatingsQuantity());
         System.out.println(text);
     }
 
@@ -32,8 +32,7 @@ public class Games {
     }
 
     double getRatingAvarage() {
-        double a = ratingsSum / ratingsQuantity;
-        return a;
+        return ratingsSum / ratingsQuantity;
     }
 
     private String getTitle() {
