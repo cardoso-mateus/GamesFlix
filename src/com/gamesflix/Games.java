@@ -22,7 +22,8 @@ public class Games {
                 Ano de lançamento: %d
                 Nota: %.1f
                 Quantidade de avaliações: %d
-                """.formatted(getTitle(), getGenre(), getLaunchYear(), getRatingAvarage(), getRatingsQuantity());
+                Necessário assinatura: %b
+                """.formatted(getTitle(), getGenre(), getLaunchYear(), getRatingAvarage(), getRatingsQuantity(), isSubscriptionNeeded());
         System.out.println(text);
     }
 
