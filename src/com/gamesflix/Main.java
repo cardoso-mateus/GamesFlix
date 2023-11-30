@@ -1,9 +1,8 @@
 package com.gamesflix;
 
 import com.gamesflix.controlers.PlayList;
-import com.gamesflix.models.MobileGames;
-import com.gamesflix.models.PcGames;
-import com.gamesflix.models.Games;
+import com.gamesflix.models.classes.MobileGames;
+import com.gamesflix.models.classes.PcGames;
 
 public class Main {
 
