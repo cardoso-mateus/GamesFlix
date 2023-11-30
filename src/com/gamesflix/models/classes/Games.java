@@ -1,8 +1,9 @@
 package com.gamesflix.models.classes;
 
-import com.gamesflix.models.interfaces.Rateable;
 
-public class Games implements Rateable {
+import com.gamesflix.controlers.interfaces.FiltersInterface;
+
+public class Games implements FiltersInterface {
     private String title;
     private String genre;
     private int launchYear;
@@ -32,6 +33,14 @@ public class Games implements Rateable {
     public void rate(double rating) {
         ratingsSum += rating;
         ratingsQuantity++;
+    }
+
+    @Override
+    public int subscriptionFilter() {
+        if (subscriptionNeeded) {
+            return 1;
+        }
+        return 0;
     }
 
     public double getRatingAvarage() {
