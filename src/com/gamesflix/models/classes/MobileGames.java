@@ -1,8 +1,8 @@
 package com.gamesflix.models.classes;
 
-import com.gamesflix.models.interfaces.Rateable;
+import com.gamesflix.controlers.interfaces.FiltersInterface;
 
-public class MobileGames extends Games implements Rateable {
+public class MobileGames extends Games implements FiltersInterface {
     boolean androidAvailable;
     boolean iosAvailable;
 
