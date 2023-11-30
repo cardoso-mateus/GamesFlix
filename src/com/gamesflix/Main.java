@@ -1,6 +1,7 @@
 package com.gamesflix;
 
-import com.gamesflix.controlers.PlayList;
+import com.gamesflix.controlers.classes.Filters;
+import com.gamesflix.controlers.classes.PlayList;
 import com.gamesflix.models.classes.MobileGames;
 import com.gamesflix.models.classes.PcGames;
 
@@ -23,5 +24,10 @@ public class Main {
         playList.addToList(doom);
         playList.addToList(candyCrush);
         playList.showList();
+
+        Filters filtros = new Filters();
+        filtros.subscriptionFilter(doom);
+        filtros.subscriptionFilter(candyCrush);
+        filtros.getFilteredGames();
     }
 }
