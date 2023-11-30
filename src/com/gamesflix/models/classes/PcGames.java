@@ -1,8 +1,8 @@
 package com.gamesflix.models.classes;
 
-import com.gamesflix.models.interfaces.Rateable;
+import com.gamesflix.controlers.interfaces.FiltersInterface;
 
-public class PcGames extends Games implements Rateable {
+public class PcGames extends Games implements FiltersInterface {
     private boolean mouseKeyboard;
     private boolean joystick;
 
