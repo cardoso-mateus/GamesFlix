@@ -1,6 +1,6 @@
 package com.gamesflix.controlers;
 
-import com.gamesflix.models.Games;
+import com.gamesflix.models.classes.Games;
 
 import java.util.ArrayList;
 import java.util.List;
